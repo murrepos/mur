@@ -11,9 +11,7 @@ The steps below describe how to reconstruct and decrypt the artifact.
 1. Download **all parts** of the encrypted artifact:
 
 ```
-mur_repo.tar.gz.gpg.part_aa
-mur_repo.tar.gz.gpg.part_ab
-mur_repo.tar.gz.gpg.part_ac
+git clone https://github.com/murrepos/mur
 ```
 
 
