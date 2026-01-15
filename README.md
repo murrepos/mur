@@ -20,7 +20,7 @@ git clone https://github.com/murrepos/mur
 cd mur
 cat mur_repo.tar.gz.gpg.part_* > mur_repo.tar.gz.gpg
 ```
-3. Decrypt the reconstructed file. The passphrase for decryption is provided under the Open Science Policy section in the appendix of the submission.
+3. Decrypt the reconstructed file. *The passphrase for decryption is provided under the Open Science Policy section in the appendix of the submission.*
 ```bash
 gpg -d mur_repo.tar.gz.gpg > mur_repo.tar.gz
 ```
