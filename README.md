@@ -17,6 +17,7 @@ git clone https://github.com/murrepos/mur
 
 2. Reconstruct the encrypted artifact by concatenating all parts:
 ```bash
+cd mur
 cat mur_repo.tar.gz.gpg.part_* > mur_repo.tar.gz.gpg
 ```
 3. Decrypt the reconstructed file. The passphrase for decryption is provided under the Open Science Policy section in the appendix of the submission.
@@ -26,6 +27,8 @@ gpg -d mur_repo.tar.gz.gpg > mur_repo.tar.gz
 4. Uncompress the decrypted archive:
 ```bash
 tar -xzf mur_repo.tar.gz
+cd mur_repo
+cat readme.txt
 ```
 
 
