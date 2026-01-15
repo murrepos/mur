@@ -27,8 +27,9 @@ gpg -d mur_repo.tar.gz.gpg > mur_repo.tar.gz
 4. Uncompress the decrypted archive:
 ```bash
 tar -xzf mur_repo.tar.gz
+```
+5. Please follow the instructions in readme.txt located in the decrypted root folder.
+```bash
 cd mur_repo
 cat readme.txt
 ```
-
-
